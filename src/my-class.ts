@@ -10,6 +10,6 @@ export class MyClass {
             } catch (e) {
                     type = 'ESModule'
             }
-            console.log('Hello!', type)
+           return 'Hello!' + type;
     }
 }
