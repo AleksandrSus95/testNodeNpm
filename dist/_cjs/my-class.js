@@ -18,3 +18,18 @@ class MyClass {
     }
 }
 exports.MyClass = MyClass;
+class MyClassTwo {
+    constructor(name) {
+        this.name = name;
+    }
+    getName() {
+        return this.name;
+    }
+    sayHello() {
+        return "Hello my name is " + this.name;
+    }
+    squareNumber(value) {
+        return value * value;
+    }
+}
+exports.default = MyClassTwo;

@@ -13,3 +13,18 @@ export class MyClass {
            return 'Hello!' + type;
     }
 }
+export default class MyClassTwo {
+        private name;
+        constructor(name:string){
+                this.name = name;
+        }
+        getName(){
+                return this.name;
+        }
+        sayHello(){
+                return "Hello my name is " + this.name
+        }
+        squareNumber(value:number){
+                return value * value; 
+        }
+}
