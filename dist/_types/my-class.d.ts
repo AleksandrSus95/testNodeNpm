@@ -1,10 +1,14 @@
-export declare class MyClass {
-    hello(): string;
+export declare class HelloClass {
+    sayHello(): string;
 }
-export default class MyClassTwo {
+export declare function sayHello(): string;
+export declare const testObject: {
+    name: string;
+    id: number;
+    description: string;
+};
+export default class HelloDefault {
     private name;
     constructor(name: string);
-    getName(): string;
     sayHello(): string;
-    squareNumber(value: number): number;
 }
